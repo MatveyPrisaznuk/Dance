@@ -1,3 +1,12 @@
+:root {
+    --logo-color: #000000;
+    --text-color: #FFFFFF;
+    --button-color: #7140EB;
+    --section-color: #49464F;
+    --main-color: #2E2C34;
+    --sectionitem-color: #F5F5F7;
+}
+
 body {
     font-family: "Roboto";
 }
