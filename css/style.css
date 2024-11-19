@@ -9,4 +9,66 @@
 
 body {
     font-family: "Roboto";
+    font-weight: 400;
+}
+
+.header-logo {
+    width: 124px;
+    height: 70px;
+}
+
+.catalog-link {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+}
+
+.catalog-button {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    width: 183px;
+    height: 42px;
+    border-radius: 999px;
+    background: var(--button-color);
+}
+
+.hero-title {
+    color: var(--text-color);
+    font-size: 99px;
+    line-height: 1.123151515; 
+    letter-spacing: 5px;
+    width: 540px;
+}
+
+.hero-subtitle {
+    color: var(--text-color);
+    font-size: 98px;
+    line-height: 1.134612245;
+    letter-spacing: 5px;
+    width: 472px;
+}
+
+.hero-desc {
+    color: var(--text-color);
+    font-size: 21px;
+    line-height: 1.106428571; 
+    width: 293px;
+}
+
+.hero-text {
+    color: var(--text-color);
+    font-size: 21px;
+    line-height: 1.106428571; 
+    width: 277px;
+}
+
+.hero-button {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    width: 183px;
+    height: 42px;
+    border-radius: 999px;
+    background: var(--button-color); 
 }
