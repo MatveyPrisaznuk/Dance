@@ -5,11 +5,11 @@
     --section-color: #49464F;
     --main-color: #2E2C34;
     --sectionitem-color: #F5F5F7;
+    --winterbutton-color: #F1EEF8;
 }
 
 body {
     font-family: "Roboto";
-    font-weight: 400;
 }
 
 .header-logo {
@@ -71,4 +71,155 @@ body {
     height: 42px;
     border-radius: 999px;
     background: var(--button-color); 
+}
+
+.howitworks-title {
+    color: var(--section-color);
+    font-size: 67px;
+    line-height: 0.9961940299;
+    width: 391px;
+}
+
+.sked-desc {
+    color: var(--section-color);
+    font-size: 28px;
+    line-height: 1.229392857; 
+    width: 264px;
+}
+
+.howitworks-button {
+    width: 189px;
+    height: 62px;
+    border-radius: 999px;
+    background: var(--button-color);
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+}
+
+.moveyourway-title {
+    color: var(--main-color);
+    font-size: 67px;
+    line-height: 0.9961940299;
+}
+
+.moveyourway-desc {
+    color: var(--main-color);
+    font-size: 20px;
+    line-height: 1.24115;
+}
+
+.list-item {
+    border-radius: 16px;
+    background: var(--text-color);
+    width: 334px;
+    height: 517px;
+}
+
+.list-image {
+    width: 286px;
+    height: 227px;
+}
+
+.list-desc {
+    color: var(--section-color);
+    font-size: 17px;
+    line-height: 1.270588235; 
+}
+
+.list-button {
+    color: var(--button-color);
+    font-size: 16px;
+    line-height: 1.5; 
+    width: 107px;
+    height: 26px;
+    border-radius: 20px;
+    background: var(--winterbutton-color);
+}
+
+.list-title {
+    color: var(--section-color);
+    font-size: 29px;
+    line-height: 1.187; 
+}
+
+.list-subtitle {
+    color: var(--section-color);
+    font-size: 18px;
+    line-height: 1.2; 
+}
+
+.list-btn {
+    color: var(--main-color);
+    font-size: 16px;
+    line-height: 1; 
+    width: 180px;
+    height: 61px;
+    border-radius: 999px;
+    border: 1px solid var(--main-color);
+}
+
+.justride-title {
+    color: var(--main-color);
+    font-size: 67px;
+    line-height: 0.9961940299; 
+    width: 426px;
+}
+
+.justride-desc {
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: 1.2; 
+    width: 313px;
+}
+
+.justride-button {
+    color: var(--main-color);
+    font-size: 16px;
+    line-height: 1; 
+    width: 180px;
+    height: 40px;
+    border-radius: 999px;
+    border: 1px solid var(--main-color);
+}
+
+.item-title {
+    color: var(--text-color);
+    font-size: 100px;
+    line-height: 1.11192; 
+    letter-spacing: 5px;
+}
+
+.content-title {
+    color: var(--text-color);
+    font-size: 65px;
+    line-height: 1.026846154; 
+}
+
+.content-subtitle {
+    color: var(--text-color);
+    font-size: 67px;
+    line-height: 0.9961940299; 
+}
+
+.content-desc {
+    color: var(--text-color);
+    font-size: 21px;
+    line-height: 1.182047619;
+}
+
+.content-button {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    width: 189px;
+    height: 62px;
+    border-radius: 999px;
+    background: var(--button-color);
+}
+
+.content-subject {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.35; 
 }
