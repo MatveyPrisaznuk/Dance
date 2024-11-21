@@ -223,3 +223,104 @@ body {
     font-size: 18px;
     line-height: 1.35; 
 }
+
+.incharge-title {
+    color: var(--main-color);
+    font-size: 65px;
+    line-height: 1.026846154; 
+    width: 248px;
+}
+
+.incharge-subtitle {
+    color: var(--main-color);
+    font-size: 21px;
+    line-height: 1.182047619; 
+    width: 252px;
+}
+
+.roster-item {
+    width: 282px;
+    height: 37px;
+    border-radius: 40px;
+    background: #F5F5F7;
+}
+
+.roster-item:hover {
+    width: 235px;
+    height: 37px;
+    border-radius: 40px;
+    border: 1px solid #000;
+    background: #F5F5F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.roster-desc {
+    color: var(--section-color);
+    font-size: 16px;
+    line-height: 21.6px; /* 135% */
+}
+
+.inventory-item {
+    width: 334px;
+    height: 518px;
+    border-radius: 16px;
+    background: var(--sectionitem-color);
+}
+
+.inventory-image {
+    width: 286px;
+    height: 227px;
+}
+
+.inventory-desc {
+    color: var(--section-color);
+    font-size: 17px;
+    line-height: 1.270588235; 
+}
+
+.inventory-button {
+    color: var(--button-color);
+    font-size: 16px;
+    line-height: 1.5; 
+    width: 107px;
+    height: 26px;
+    border-radius: 20px;
+    background: var(--winterbutton-color);
+}
+
+.inventory-title {
+    color: #2E2C34;
+    font-size: 29px;
+    line-height: 1.187;
+    width: 210px;
+}
+
+.inventory-subtitle {
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: 1.2; 
+}
+
+.inventory-btn {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556;
+    width: 189px;
+    height: 62px;
+    border-radius: 999px;
+    background: var(--button-color);
+}
+
+.wantto-title {
+    color: var(--main-color);
+    font-size: 67px;
+    line-height: 0.9961940299; 
+    width: 235px;
+}
+
+.wantto-subtitle {
+    width: 186px;
+    color: var(--main-color);
+    font-size: 66px;
+    line-height: 1.011287879; 
+}
