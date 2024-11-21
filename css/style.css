@@ -21,6 +21,7 @@ body {
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.019055556; 
+    font-weight: normal;
 }
 
 .catalog-button {
@@ -31,6 +32,7 @@ body {
     height: 42px;
     border-radius: 999px;
     background: var(--button-color);
+    font-weight: normal;
 }
 
 .hero-title {
@@ -39,6 +41,7 @@ body {
     line-height: 1.123151515; 
     letter-spacing: 5px;
     width: 540px;
+    font-weight: normal;
 }
 
 .hero-subtitle {
@@ -47,6 +50,7 @@ body {
     line-height: 1.134612245;
     letter-spacing: 5px;
     width: 472px;
+    font-weight: normal;
 }
 
 .hero-desc {
@@ -54,6 +58,7 @@ body {
     font-size: 21px;
     line-height: 1.106428571; 
     width: 293px;
+    font-weight: normal;
 }
 
 .hero-text {
@@ -61,6 +66,7 @@ body {
     font-size: 21px;
     line-height: 1.106428571; 
     width: 277px;
+    font-weight: normal;
 }
 
 .hero-button {
@@ -71,6 +77,7 @@ body {
     height: 42px;
     border-radius: 999px;
     background: var(--button-color); 
+    font-weight: normal;
 }
 
 .howitworks-title {
@@ -78,6 +85,7 @@ body {
     font-size: 67px;
     line-height: 0.9961940299;
     width: 391px;
+    font-weight: normal;
 }
 
 .sked-desc {
@@ -85,6 +93,7 @@ body {
     font-size: 28px;
     line-height: 1.229392857; 
     width: 264px;
+    font-weight: normal;
 }
 
 .howitworks-button {
@@ -95,18 +104,21 @@ body {
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.019055556; 
+    font-weight: normal;
 }
 
 .moveyourway-title {
     color: var(--main-color);
     font-size: 67px;
     line-height: 0.9961940299;
+    font-weight: normal;
 }
 
 .moveyourway-desc {
     color: var(--main-color);
     font-size: 20px;
     line-height: 1.24115;
+    font-weight: normal;
 }
 
 .list-item {
@@ -125,6 +137,7 @@ body {
     color: var(--section-color);
     font-size: 17px;
     line-height: 1.270588235; 
+    font-weight: normal;
 }
 
 .list-button {
@@ -135,18 +148,21 @@ body {
     height: 26px;
     border-radius: 20px;
     background: var(--winterbutton-color);
+    font-weight: normal;
 }
 
 .list-title {
     color: var(--section-color);
     font-size: 29px;
     line-height: 1.187; 
+    font-weight: normal;
 }
 
 .list-subtitle {
     color: var(--section-color);
     font-size: 18px;
     line-height: 1.2; 
+    font-weight: normal;
 }
 
 .list-btn {
@@ -157,6 +173,7 @@ body {
     height: 61px;
     border-radius: 999px;
     border: 1px solid var(--main-color);
+    font-weight: normal;
 }
 
 .justride-title {
@@ -164,6 +181,7 @@ body {
     font-size: 67px;
     line-height: 0.9961940299; 
     width: 426px;
+    font-weight: normal;
 }
 
 .justride-desc {
@@ -171,6 +189,7 @@ body {
     font-size: 18px;
     line-height: 1.2; 
     width: 313px;
+    font-weight: normal;
 }
 
 .justride-button {
@@ -181,6 +200,7 @@ body {
     height: 40px;
     border-radius: 999px;
     border: 1px solid var(--main-color);
+    font-weight: normal;
 }
 
 .item-title {
@@ -188,24 +208,28 @@ body {
     font-size: 100px;
     line-height: 1.11192; 
     letter-spacing: 5px;
+    font-weight: normal;
 }
 
 .content-title {
     color: var(--text-color);
     font-size: 65px;
     line-height: 1.026846154; 
+    font-weight: normal;
 }
 
 .content-subtitle {
     color: var(--text-color);
     font-size: 67px;
     line-height: 0.9961940299; 
+    font-weight: normal;
 }
 
 .content-desc {
     color: var(--text-color);
     font-size: 21px;
     line-height: 1.182047619;
+    font-weight: normal;
 }
 
 .content-button {
@@ -216,12 +240,14 @@ body {
     height: 62px;
     border-radius: 999px;
     background: var(--button-color);
+    font-weight: normal;
 }
 
 .content-subject {
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.35; 
+    font-weight: normal;
 }
 
 .incharge-title {
@@ -229,6 +255,7 @@ body {
     font-size: 65px;
     line-height: 1.026846154; 
     width: 248px;
+    font-weight: normal;
 }
 
 .incharge-subtitle {
@@ -236,13 +263,14 @@ body {
     font-size: 21px;
     line-height: 1.182047619; 
     width: 252px;
+    font-weight: normal;
 }
 
 .roster-item {
     width: 282px;
     height: 37px;
     border-radius: 40px;
-    background: #F5F5F7;
+    background: var(--sectionitem-color);
 }
 
 .roster-item:hover {
@@ -250,14 +278,16 @@ body {
     height: 37px;
     border-radius: 40px;
     border: 1px solid #000;
-    background: #F5F5F7;
+    background: var(--sectionitem-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-weight: normal;
 }
 
 .roster-desc {
     color: var(--section-color);
     font-size: 16px;
-    line-height: 21.6px; /* 135% */
+    line-height: 1.35; 
+    font-weight: normal;
 }
 
 .inventory-item {
@@ -276,6 +306,7 @@ body {
     color: var(--section-color);
     font-size: 17px;
     line-height: 1.270588235; 
+    font-weight: normal;
 }
 
 .inventory-button {
@@ -286,6 +317,7 @@ body {
     height: 26px;
     border-radius: 20px;
     background: var(--winterbutton-color);
+    font-weight: normal;
 }
 
 .inventory-title {
@@ -293,12 +325,14 @@ body {
     font-size: 29px;
     line-height: 1.187;
     width: 210px;
+    font-weight: normal;
 }
 
 .inventory-subtitle {
     color: var(--main-color);
     font-size: 18px;
     line-height: 1.2; 
+    font-weight: normal;
 }
 
 .inventory-btn {
@@ -309,6 +343,7 @@ body {
     height: 62px;
     border-radius: 999px;
     background: var(--button-color);
+    font-weight: normal;
 }
 
 .wantto-title {
@@ -316,6 +351,7 @@ body {
     font-size: 67px;
     line-height: 0.9961940299; 
     width: 235px;
+    font-weight: normal;
 }
 
 .wantto-subtitle {
@@ -323,4 +359,101 @@ body {
     color: var(--main-color);
     font-size: 66px;
     line-height: 1.011287879; 
+    font-weight: normal;
+}
+
+.wantto-button {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1; 
+    width: 180px;
+    height: 39px;
+    border-radius: 999px;
+    border: 1px solid var(--main-color);
+}
+
+.roll-text {
+    color: var(--main-color);
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 1.182047619; 
+}
+
+.roll-text::before {
+    content: url(../img/plus.png);
+}
+
+.ourmembers-title {
+    color: var(--section-color);
+    font-family: Roboto;
+    font-size: 66px;
+    font-weight: normal;
+    line-height: 1.011287879; 
+    width: 683px;
+}
+
+.docket-title {
+    color: var(--section-color);
+    font-size: 29px;
+    font-weight: normal;
+    line-height: 0.989137931; 
+    width: 246px;
+}
+
+.docket-title:nth-child(2) {
+    width: 256px;
+}
+
+.docket-desc {
+    color: var(--section-color);
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.429411765; 
+}
+
+.footer {
+    background-image: url(../img/footer_background.jpg);
+    background-repeat: no-repeat;
+}
+
+.footer-title {
+    color: var(--text-color);
+    font-size: 29px;
+    font-weight: normal;
+    line-height: 1.187; 
+}
+
+.footer-desc {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5; 
+    width: 286px;
+}
+
+.shape-entry {
+    width: 314px;
+    height: 54px;
+    border-radius: 10px;
+    background: var(--text-color);
+    color: rgba(73, 70, 79, 0.80);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.375; 
+}
+
+.footer-text {
+    width: 259px;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5; 
+}
+
+.schedule-link {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5; 
 }
