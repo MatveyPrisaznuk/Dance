@@ -18,7 +18,15 @@ body {
     padding-right: 15px;
     margin: 0 auto ;
     outline: 1px solid red;
-  }
+}
+
+.header, .hero {
+    background-image: url(../img/header_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
 
 .header-logo {
     width: 124px;
