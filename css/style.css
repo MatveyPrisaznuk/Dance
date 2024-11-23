@@ -404,6 +404,11 @@ body {
 }
 
 .roster-item {
+    border-radius: 40px;
+    background: var(--sectionitem-color);
+}
+
+.roster-item:hover {
     color: var(--section-color);
     font-size: 16px;
     font-weight: normal;
