@@ -110,6 +110,8 @@ body {
 
 .howitworks {
     background: var(--text-color);
+    padding-top: 68px;
+    padding-bottom: 73px;
 }
 
 .howitworks-title {
@@ -188,6 +190,8 @@ body {
 
 .moveyourway {
     background: var(--sectionitem-color);
+    padding-top: 68px;
+    padding-bottom: 73px;
 }
 
 .moveyourway-title {
@@ -266,6 +270,8 @@ body {
 
 .justride {
     background: var(--sectionitem-color);
+    padding-top: 69px;
+    padding-bottom: 73px;
 }
 
 .justride-title {
@@ -300,6 +306,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 98px;
+    padding-bottom: 69px;
 }
 
 .items-item:first-child {
@@ -375,6 +383,8 @@ body {
 
 .incharge {
     background: var(--text-color);
+    padding-top: 69px;
+    padding-bottom: 74px;
 }
 
 .incharge-title {
@@ -478,6 +488,8 @@ body {
 
 .wantto {
     background: var(--sectionitem-color);
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .wantto-title {
@@ -548,6 +560,8 @@ body {
 
 .ourmembers {
     background: var(--text-color);
+    padding-top: 68px;
+    padding-bottom: 73px;
 }
 
 .ourmembers-title {
@@ -584,6 +598,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 98px;
+    padding-bottom: 21px;
 }
 
 .footer-title {
