@@ -304,20 +304,28 @@ body {
     padding-bottom: 73px;
 }
 
+.justride > .container {
+    background-image: url(../img/woman_with_bicycle.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
 .justride-title {
     color: var(--main-color);
     font-size: 67px;
     line-height: 0.9961940299; 
     width: 426px;
     font-weight: normal;
+    margin-bottom: 26px;
 }
 
 .justride-desc {
     color: var(--main-color);
     font-size: 18px;
     line-height: 1.2; 
-    width: 313px;
+    width: 312px;
     font-weight: normal;
+    margin-bottom: 39px;
 }
 
 .justride-button {
