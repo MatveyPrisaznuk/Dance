@@ -112,12 +112,25 @@ body {
     padding-bottom: 73px;
 }
 
+.howitworks > .container {
+    background-image: url(../img/bicycle_and_scooter.png);
+    background-repeat: no-repeat;
+    background-position: 300px center;
+}
+
 .howitworks-title {
     color: var(--section-color);
     font-size: 67px;
     line-height: 0.9961940299;
     width: 391px;
     font-weight: normal;
+    margin-bottom: 71px;
+}
+
+.howitworks-sked {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .sked-desc {
@@ -125,36 +138,19 @@ body {
     font-size: 28px;
     line-height: 1.229392857; 
     font-weight: normal;
-}
-
-.sked-item {
-    color: var(--section-color);
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 1.434291667; 
-}
-
-.sked-item:first-child {
-    width: 170px;
-}
-
-.sked-item:nth-child(2) {
-    width: 215px;
-}
-
-.sked-item:nth-child(3) {
+    margin-left: 15px;
     width: 264px;
 }
 
-.sked-item:nth-child(4) {
-    width: 138px;
+.sked-item {
+    display: flex;
 }
 
 .sked-item::before {
     content: " ";
-    width: 20px;
+    width: 23px;
     color: var(--section-color);
-    font-size: 24px;
+    font-size: 27px;
     font-weight: normal;
     line-height: 1.434291667; 
 }
@@ -184,6 +180,11 @@ body {
     font-size: 18px;
     line-height: 1.019055556; 
     font-weight: normal;
+    margin-top: 51px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 20px;
+    padding-bottom: 23px;
 }
 
 .moveyourway {
@@ -198,6 +199,7 @@ body {
     line-height: 0.9961940299;
     font-weight: normal;
     width: 449px;
+    margin-bottom: 27px;
 }
 
 .moveyourway-desc {
@@ -206,6 +208,12 @@ body {
     line-height: 1.24115;
     font-weight: normal;
     width: 435px;
+    margin-bottom: 48px;
+}
+
+.moveyourway-list {
+    display: flex;
+    gap: 16px;
 }
 
 .list-item {
@@ -218,6 +226,15 @@ body {
 .list-image {
     width: 286px;
     height: 227px;
+    margin-top: 67px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 2px;
+}
+
+.list-box {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .list-desc {
@@ -226,6 +243,9 @@ body {
     line-height: 1.270588235; 
     font-weight: normal;
     width: 145px;
+    margin-right: 16px;
+    margin-left: 24px;
+    margin-bottom: 39px;
 }
 
 .list-button {
@@ -237,6 +257,10 @@ body {
     border-radius: 20px;
     background: var(--winterbutton-color);
     font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .list-title {
@@ -245,6 +269,8 @@ body {
     line-height: 1.187; 
     font-weight: normal;
     width: 210px;
+    margin-left: 24px;
+    margin-right: 100px;
 }
 
 .list-subtitle {
@@ -253,6 +279,9 @@ body {
     line-height: 1.2; 
     font-weight: normal;
     width: 67px;
+    margin-left: 24px;
+    margin-right: 266px;
+    margin-bottom: 11px;
 }
 
 .list-btn {
@@ -264,6 +293,9 @@ body {
     border-radius: 999px;
     border: 1px solid var(--main-color);
     font-weight: normal;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    margin-right: 130px;
 }
 
 .justride {
