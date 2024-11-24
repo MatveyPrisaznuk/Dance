@@ -348,6 +348,12 @@ body {
     padding-bottom: 69px;
 }
 
+.yourcity-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .items-item:first-child {
     width: 280px;
 }
@@ -376,20 +382,20 @@ body {
     font-weight: normal;
 }
 
+.yourcity-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .content-title {
     color: var(--text-color);
     font-size: 65px;
     line-height: 1.026846154; 
     font-weight: normal;
     width: 319px;
-}
-
-.content-subtitle {
-    color: var(--text-color);
-    font-size: 67px;
-    line-height: 0.9961940299; 
-    font-weight: normal;
-    width: 220px;
+    margin-bottom: 12px;
 }
 
 .content-desc {
@@ -398,6 +404,7 @@ body {
     line-height: 1.182047619;
     font-weight: normal;
     width: 242px;
+    margin-bottom: 29px;
 }
 
 .content-button {
@@ -417,6 +424,7 @@ body {
     line-height: 1.35; 
     font-weight: normal;
     width: 249px;
+    margin-top: 33px;
 }
 
 .incharge {
