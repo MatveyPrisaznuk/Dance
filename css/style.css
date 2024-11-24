@@ -220,21 +220,16 @@ body {
     border-radius: 16px;
     background: var(--text-color);
     width: 334px;
-    height: 517px;
+    padding: 67px 24px 32px 24px;
 }
 
 .list-image {
     width: 286px;
     height: 227px;
-    margin-top: 67px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 2px;
 }
 
 .list-box {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .list-desc {
@@ -244,7 +239,6 @@ body {
     font-weight: normal;
     width: 145px;
     margin-right: 16px;
-    margin-left: 24px;
     margin-bottom: 39px;
 }
 
@@ -269,8 +263,6 @@ body {
     line-height: 1.187; 
     font-weight: normal;
     width: 210px;
-    margin-left: 24px;
-    margin-right: 100px;
 }
 
 .list-subtitle {
@@ -279,8 +271,6 @@ body {
     line-height: 1.2; 
     font-weight: normal;
     width: 67px;
-    margin-left: 24px;
-    margin-right: 266px;
     margin-bottom: 11px;
 }
 
@@ -293,9 +283,6 @@ body {
     border-radius: 999px;
     border: 1px solid var(--main-color);
     font-weight: normal;
-    margin-left: 24px;
-    margin-bottom: 32px;
-    margin-right: 130px;
 }
 
 .justride {
