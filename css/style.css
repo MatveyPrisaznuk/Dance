@@ -425,12 +425,22 @@ body {
     padding-bottom: 74px;
 }
 
+.incharge-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlebox {
+    padding-top: 0;
+}
+
 .incharge-title {
     color: var(--main-color);
     font-size: 65px;
     line-height: 1.026846154; 
     width: 248px;
     font-weight: normal;
+    margin-bottom: 27px;
 }
 
 .incharge-subtitle {
@@ -439,11 +449,27 @@ body {
     line-height: 1.182047619; 
     width: 252px;
     font-weight: normal;
+    margin-bottom: 36px;
+}
+
+.incharge-roster {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .roster-item {
     border-radius: 40px;
     background: var(--sectionitem-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.35; 
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 48px;
+    padding-right: 16px;
+    height: 37px;
+
 }
 
 .roster-item:hover {
@@ -458,19 +484,24 @@ body {
 }
 
 .roster-item:first-child {
-    width: 171px;
+    width: 235px;
 }
 
 .roster-item:nth-child(2) {
-    width: 218px;
+    width: 282px;
 }
 
 .roster-item:nth-child(3) {
-    width: 163px;
+    width: 227px;
 }
 
 .roster-item:nth-child(4) {
-    width: 114px;
+    width: 178px;
+}
+
+.incharge-inventory {
+    display: flex;
+    gap: 16px;
 }
 
 .inventory-item {
@@ -478,11 +509,11 @@ body {
     height: 518px;
     border-radius: 16px;
     background: var(--sectionitem-color);
+    padding: 67px 24px 32px 24px;
 }
 
-.inventory-image {
-    width: 286px;
-    height: 227px;
+.item-box {
+    display: flex;
 }
 
 .inventory-desc {
@@ -490,6 +521,9 @@ body {
     font-size: 17px;
     line-height: 1.270588235; 
     font-weight: normal;
+    width: 145px;
+    margin-right: 16px;
+    margin-bottom: 38px;
 }
 
 .inventory-button {
@@ -516,6 +550,8 @@ body {
     font-size: 18px;
     line-height: 1.2; 
     font-weight: normal;
+    width: 67px;
+    margin-bottom: 12px;
 }
 
 .inventory-btn {
