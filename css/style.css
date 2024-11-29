@@ -283,6 +283,10 @@ body {
     border-radius: 999px;
     border: 1px solid var(--main-color);
     font-weight: normal;
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center right;
 }
 
 .justride {
@@ -324,6 +328,10 @@ body {
     border-radius: 999px;
     border: 1px solid var(--main-color);
     font-weight: normal;
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center right;
 }
 
 .yourcity {
@@ -469,6 +477,10 @@ body {
     padding-left: 48px;
     padding-right: 16px;
     height: 37px;
+    background-image: url(../img/chek.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left center;
 
 }
 
@@ -481,6 +493,10 @@ body {
     border: 1px solid var(--logo-color);
     background: var(--sectionitem-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-image: url(../img/chek.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left center;
 }
 
 .roster-item:first-child {
@@ -595,6 +611,10 @@ body {
     height: 39px;
     border-radius: 999px;
     border: 1px solid var(--main-color);
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center right;
 }
 
 .wantto-roll {
@@ -611,35 +631,36 @@ body {
 }
 
 .roll-item:first-child {
-    width: 230px;
+    width: 255px;
 }
 
 .roll-item:nth-child(2) {
-    width: 330px;
+    width: 345px;
 }
 
 .roll-item:nth-child(3) {
-    width: 513px;
+    width: 553px;
 }
 
 .roll-item:nth-child(4) {
-    width: 223px;
+    width: 243px;
 }
 
 .roll-item:nth-child(5) {
-    width: 325px;
+    width: 345px;
 }
 
 .roll-item:nth-child(6) {
-    width: 323px;
+    width: 353px;
 }
 
 .roll-item:nth-child(7) {
-    width: 389px;
+    width: 409px;
 }
 
 .roll-text::before {
     content: url(../img/plus.png);
+    margin-right: 28px; 
 }
 
 .ourmembers {
@@ -749,6 +770,10 @@ body {
     margin-bottom: 25px;
     padding: 18px 135px 14px 16px;
     margin-right: 132px;
+    background-image: url(../img/big_arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center right;
 }
 
 .footer-text {
