@@ -460,7 +460,7 @@ body {
     background-image: url(../img/chek.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: left center;
+    background-position: 20px center;
 
 }
 
@@ -476,7 +476,7 @@ body {
     background-image: url(../img/chek.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: left center;
+    background-position: 20px center;
 }
 
 .roster-item:first-child {
@@ -592,7 +592,7 @@ body {
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center right;
+    background-position: 130px center;
 }
 
 .wantto-roll {
@@ -710,11 +710,6 @@ body {
     justify-content: space-between;
 }
 
-.containerbox {
-    background-image: none;
-    padding-top: 0;
-    padding-bottom: 0;
-}
 
 .footer-title {
     color: var(--text-color);
@@ -748,7 +743,7 @@ body {
     background-image: url(../img/big_arrow.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center right;
+    background-position: 285px center;
 }
 
 .footer-text {
@@ -802,4 +797,15 @@ body {
     font-size: 16px;
     font-weight: normal;
     line-height: 1.5;
+}
+
+.footer-ulbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-linkbox {
+    display: flex;
+    margin-top: 180px;
+    margin-left: 560px;
 }
