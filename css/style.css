@@ -60,8 +60,7 @@ body {
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.019055556; 
-    width: 183px;
-    height: 42px;
+    padding: 11px 51px 12px 51px;
     border-radius: 999px;
     background: var(--button-color);
     font-weight: normal;
@@ -278,16 +277,16 @@ body {
     color: var(--main-color);
     font-size: 16px;
     line-height: 1; 
-    width: 180px;
-    height: 61px;
+    padding: 22px 60px 23px 39px;
     border-radius: 999px;
     border: 1px solid var(--main-color);
     font-weight: normal;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center right;
+    background-position: 122px center;
 }
+
 
 .justride {
     background: var(--sectionitem-color);
@@ -323,15 +322,14 @@ body {
     color: var(--main-color);
     font-size: 16px;
     line-height: 1; 
-    width: 180px;
-    height: 40px;
+    padding: 12px 60px 12px 39px;
     border-radius: 999px;
     border: 1px solid var(--main-color);
     font-weight: normal;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center right;
+    background-position: 125px center;
 }
 
 .yourcity {
@@ -397,27 +395,9 @@ body {
 .yourcity-items {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
-.items-item:first-child {
-    width: 280px;
-}
-
-.items-item:nth-child(2) {
-    width: 473px;
-}
-
-.items-item:nth-child(3) {
-    width: 376px;
-}
-
-.items-item:nth-child(4) {
-    width: 248px;
-}
-
-.items-item:nth-child(5) {
-    width: 348px;
-}
 
 .item-title {
     color: var(--text-color);
@@ -574,8 +554,7 @@ body {
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.019055556;
-    width: 189px;
-    height: 62px;
+    padding: 20px 54px 23px 54px;
     border-radius: 999px;
     background: var(--button-color);
     font-weight: normal;
@@ -607,8 +586,7 @@ body {
     font-size: 16px;
     font-weight: normal;
     line-height: 1; 
-    width: 180px;
-    height: 39px;
+    padding: 12px 55px 11px 44px;
     border-radius: 999px;
     border: 1px solid var(--main-color);
     background-image: url(../img/arrow.png);
@@ -730,9 +708,6 @@ body {
 .footerbox {
     display: flex;
     justify-content: space-between;
-    background-image: url(../img/instagram.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
 }
 
 .containerbox {
