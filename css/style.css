@@ -20,6 +20,10 @@ body {
     outline: 1px solid red;
 }
 
+.header > .container {
+    width: 1700px;
+}
+
 .header, .hero {
     background-image: url(../img/header_background.jpg);
     background-repeat: no-repeat;
@@ -351,6 +355,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    align-self: flex-end;
 }
 
 .content-title {
@@ -360,7 +365,6 @@ body {
     font-weight: normal;
     width: 319px;
     margin-bottom: 12px;
-    margin-top: 179px;
 }
 
 .content-desc {
@@ -416,10 +420,6 @@ body {
 .incharge-box {
     display: flex;
     justify-content: space-between;
-}
-
-.titlebox {
-    padding-top: 0;
 }
 
 .incharge-title {
@@ -571,6 +571,10 @@ body {
     justify-content: space-between;
 }
 
+.wanto-textbox {
+    align-self: flex-end;
+}
+
 .wantto-title {
     color: var(--main-color);
     font-size: 67px;
@@ -578,7 +582,6 @@ body {
     width: 235px;
     font-weight: normal;
     margin-bottom: 53px;
-    margin-top: 95px;
 }
 
 .wantto-button {
@@ -593,6 +596,7 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 130px center;
+    margin-bottom: 37px;
 }
 
 .wantto-roll {
@@ -659,19 +663,22 @@ body {
 
 .ourmembers-docket {
     display: flex;
+    justify-content: space-between;
 }
 
-.docket-item:first-child > .docket-title {
+.docket-item:first-child {
     width: 246px;
-    margin-right: 139px;
+}
+
+.docket-item:first-child > .docket-title{
+    width: 246px;
 }
 
 .docket-item:nth-child(2) > .docket-title {
     margin-bottom: 47px;
-    margin-right: 128px;
 }
 
-.docket-item:nth-child(3) > .docket-title {
+.docket-item:nth-child(3) >.docket-title {
     width: 229px;
 }
 
