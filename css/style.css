@@ -290,7 +290,6 @@ body {
     background-position: 122px center;
 }
 
-
 .justride {
     background: var(--sectionitem-color);
     padding-top: 69px;
@@ -460,7 +459,6 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 20px center;
-
 }
 
 .roster-item:hover {
