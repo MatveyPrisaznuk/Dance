@@ -712,6 +712,7 @@ body {
 .footerbox {
     display: flex;
     justify-content: space-between;
+    width: 1115px;
 }
 
 
