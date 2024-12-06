@@ -41,11 +41,6 @@ body {
     justify-content: space-between;
 }
 
-.header-logo {
-    width: 124px;
-    height: 70px;
-}
-
 .header-catalog {
     display: flex;
     gap: 30px;
@@ -141,7 +136,6 @@ body {
     line-height: 1.229392857; 
     font-weight: normal;
     margin-left: 15px;
-    width: 264px;
 }
 
 .sked-item {
@@ -225,9 +219,8 @@ body {
     padding: 67px 24px 32px 24px;
 }
 
-.list-image {
-    width: 286px;
-    height: 227px;
+.list-item:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .list-box {
@@ -503,6 +496,10 @@ body {
     border-radius: 16px;
     background: var(--sectionitem-color);
     padding: 67px 24px 32px 24px;
+}
+
+.inventory-item:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .item-box {
