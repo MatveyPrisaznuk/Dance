@@ -652,7 +652,7 @@ body {
     gap: 45px;
 }
 
-.roll-text {
+.roll-link {
     color: var(--main-color);
     font-size: 20px;
     font-weight: normal;
@@ -687,7 +687,7 @@ body {
     width: 409px;
 }
 
-.roll-text::before {
+.roll-link::before {
     content: url(../img/plus.png);
     margin-right: 28px; 
 }
