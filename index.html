@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -19,7 +21,7 @@
     <header class="header">
         <div class="container header-box">
             <a href="./index.html" class="header-link">
-                <img src="./img/logo_dance.png" class="header-logo" alt="logo_dance">
+                <img src="./img/logo_dance.png" class="header-logo animate__animated animate__fadeInLeft" alt="logo_dance">
             </a>
             <ul class="header-catalog">
                 <li class="catalog-item">
@@ -43,8 +45,8 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">Your future is electric</h1>
-                <p class="hero-desc">Get your own ebike or emoped with our flexible subscription</p>
+                <h1 class="hero-title animate__animated animate__backInDown">Your future is electric</h1>
+                <p class="hero-desc animate__animated animate__backInDown">Get your own ebike or emoped with our flexible subscription</p>
                 <button class="hero-button">Start now</button>
             </div>
         </section>
@@ -73,7 +75,7 @@
                 <h2 class="moveyourway-title">Move your way</h2>
                 <p class="moveyourway-desc">Choose the electric ride that suits your lifestyle.</p>
                 <ul class="moveyourway-list">
-                    <li class="list-item">
+                    <li class="list-item" data-aos="zoom-in">
                         <img src="./img/bicycle.png" class="list-image" alt="bicycle">
                         <div class="list-box">
                             <p class="list-desc">From €59 €39 /mo</p>
@@ -83,7 +85,7 @@
                         <p class="list-subtitle">Ebike</p>
                         <button class="list-btn">See details</button>
                     </li>
-                    <li class="list-item">
+                    <li class="list-item" data-aos="zoom-in">
                         <img src="./img/bicycle_with_frame.png" class="list-image" alt="bicycle_with_frame">
                         <div class="list-box">
                             <p class="list-desc">From €59 €39 /mo</p>
@@ -93,7 +95,7 @@
                         <p class="list-subtitle">Ebike</p>
                         <button class="list-btn">See details</button>
                     </li>
-                    <li class="list-item">
+                    <li class="list-item" data-aos="zoom-in">
                         <img src="./img/scooter.png" class="list-image" alt="scooter">
                         <div class="list-box">
                             <p class="list-desc">From €89 €39 /mo</p>
@@ -166,7 +168,7 @@
                     </ul>
                 </div>
                 <ul class="incharge-inventory">
-                    <li class="inventory-item">
+                    <li class="inventory-item" data-aos="fade-up-left">
                         <img src="./img/bicycle.png" class="inventory-image" alt="bicycle">
                         <div class="item-box">
                             <p class="inventory-desc">From €59 €39 /mo</p>
@@ -176,7 +178,7 @@
                         <p class="inventory-subtitle">Ebike</p>
                         <button class="inventory-btn">Start now</button>
                     </li>
-                    <li class="inventory-item">
+                    <li class="inventory-item" data-aos="fade-up-left">
                         <img src="./img/scooter.png" class="inventory-image" alt="scooter">
                         <div class="item-box">
                             <p class="inventory-desc">From €89 €39 /mo</p>
@@ -193,7 +195,7 @@
             <div class="container wanttobox">
                 <div class="wanto-textbox">
                     <h2 class="wantto-title">Want to know more?</h2>
-                    <button class="wantto-button">Learn more</button>
+                    <button class="wantto-button" data-aos="fade-right">Learn more</button>
                 </div>
                 <ul class="wantto-roll">
                     <li class="roll-item">
@@ -347,5 +349,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
