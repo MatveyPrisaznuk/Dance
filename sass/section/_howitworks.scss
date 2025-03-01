@@ -1,5 +1,5 @@
 .howitworks {
-    background: var(--text-color);
+    background: $text-color;
     padding-top: 68px;
     padding-bottom: 73px;
 }
@@ -11,7 +11,7 @@
 }
 
 .howitworks-title {
-    color: var(--section-color);
+    color: $section-color;
     font-size: 67px;
     line-height: 0.9961940299;
     width: 391px;
@@ -26,7 +26,7 @@
 }
 
 .sked-desc {
-    color: var(--section-color);
+    color: $section-color;
     font-size: 28px;
     line-height: 1.229392857; 
     font-weight: normal;
@@ -40,7 +40,7 @@
 .sked-item::before {
     content: " ";
     width: 23px;
-    color: var(--section-color);
+    color: $section-color;
     font-size: 27px;
     font-weight: normal;
     line-height: 1.434291667; 
@@ -66,8 +66,8 @@
     width: 189px;
     height: 62px;
     border-radius: 999px;
-    background: var(--button-color);
-    color: var(--text-color);
+    background: $button-color;
+    color: $text-color;
     font-size: 18px;
     line-height: 1.019055556; 
     font-weight: normal;

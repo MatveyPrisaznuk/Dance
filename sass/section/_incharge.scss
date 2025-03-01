@@ -1,5 +1,5 @@
 .incharge {
-    background: var(--text-color);
+    background: $text-color;
     padding-top: 69px;
     padding-bottom: 74px;
 }
@@ -10,7 +10,7 @@
 }
 
 .incharge-title {
-    color: var(--main-color);
+    color: $main-color;
     font-size: 65px;
     line-height: 1.026846154; 
     width: 248px;
@@ -19,7 +19,7 @@
 }
 
 .incharge-subtitle {
-    color: var(--main-color);
+    color: $main-color;
     font-size: 21px;
     line-height: 1.182047619; 
     width: 252px;
@@ -35,7 +35,7 @@
 
 .roster-item {
     border-radius: 40px;
-    background: var(--sectionitem-color);
+    background: $sectionitem-color;
     font-size: 16px;
     font-weight: normal;
     line-height: 1.35; 
@@ -52,13 +52,13 @@
 }
 
 .roster-item:hover {
-    color: var(--section-color);
+    color: $section-color;
     font-size: 16px;
     font-weight: normal;
     line-height: 1.35; 
     border-radius: 40px;
-    border: 1px solid var(--logo-color);
-    background: var(--sectionitem-color);
+    border: 1px solid $logo-color;
+    background: $sectionitem-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-image: url(../img/chek.png);
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@
     width: 334px;
     height: 518px;
     border-radius: 16px;
-    background: var(--sectionitem-color);
+    background: $sectionitem-color;
     padding: 67px 24px 32px 24px;
     transition: box-shadow 600ms;
 }
@@ -105,7 +105,7 @@
 }
 
 .inventory-desc {
-    color: var(--section-color);
+    color: $section-color;
     font-size: 17px;
     line-height: 1.270588235; 
     font-weight: normal;
@@ -115,13 +115,13 @@
 }
 
 .inventory-button {
-    color: var(--button-color);
+    color: $button-color;
     font-size: 16px;
     line-height: 1.5; 
     width: 107px;
     height: 26px;
     border-radius: 20px;
-    background: var(--winterbutton-color);
+    background: $winterbutton-color;
     font-weight: normal;
     transition: background-color 0.4s, box-shadow 0.2s 0.3s;
 }
@@ -139,7 +139,7 @@
 }
 
 .inventory-subtitle {
-    color: var(--main-color);
+    color: $main-color;
     font-size: 18px;
     line-height: 1.2; 
     font-weight: normal;
@@ -148,12 +148,12 @@
 }
 
 .inventory-btn {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 18px;
     line-height: 1.019055556;
     padding: 20px 54px 23px 54px;
     border-radius: 999px;
-    background: var(--button-color);
+    background: $button-color;
     font-weight: normal;
     transition: background-color 0.4s, box-shadow 0.2s 0.3s;
 }

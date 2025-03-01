@@ -5,7 +5,7 @@
 }
 
 .hero-title {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 99px;
     line-height: 1.123151515; 
     letter-spacing: 5px;
@@ -17,7 +17,7 @@
 }
 
 .hero-desc {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 21px;
     line-height: 1.106428571; 
     width: 293px;
@@ -28,11 +28,11 @@
 }
 
 .hero-button {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 18px;
     line-height: 1.019055556; 
     border-radius: 999px;
-    background: var(--button-color); 
+    background: $button-color; 
     font-weight: normal;
     padding: 12px 51px;
     transition: background-color 0.4s, box-shadow 0.2s 0.3s;

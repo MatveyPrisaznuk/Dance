@@ -21,7 +21,7 @@
 }
 
 .content-title {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 65px;
     line-height: 1.026846154; 
     font-weight: normal;
@@ -30,7 +30,7 @@
 }
 
 .content-desc {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 21px;
     line-height: 1.182047619;
     font-weight: normal;
@@ -39,13 +39,13 @@
 }
 
 .content-button {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 18px;
     line-height: 1.019055556; 
     width: 189px;
     height: 62px;
     border-radius: 999px;
-    background: var(--button-color);
+    background: $button-color;
     font-weight: normal;
     transition: background-color 0.4s, box-shadow 0.2s 0.3s;
 }
@@ -55,7 +55,7 @@
 }
 
 .content-subject {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 18px;
     line-height: 1.35; 
     font-weight: normal;
@@ -71,7 +71,7 @@
 
 
 .item-title {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 100px;
     line-height: 1.11192; 
     letter-spacing: 5px;

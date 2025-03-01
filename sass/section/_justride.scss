@@ -1,5 +1,5 @@
 .justride {
-    background: var(--sectionitem-color);
+    background: $sectionitem-color;
     padding-top: 69px;
     padding-bottom: 73px;
 }
@@ -11,7 +11,7 @@
 }
 
 .justride-title {
-    color: var(--main-color);
+    color: $main-color;
     font-size: 67px;
     line-height: 0.9961940299; 
     width: 426px;
@@ -20,7 +20,7 @@
 }
 
 .justride-desc {
-    color: var(--main-color);
+    color: $main-color;
     font-size: 18px;
     line-height: 1.2; 
     width: 312px;
@@ -29,12 +29,12 @@
 }
 
 .justride-button {
-    color: var(--main-color);
+    color: $main-color;
     font-size: 16px;
     line-height: 1; 
     padding: 12px 60px 12px 39px;
     border-radius: 999px;
-    border: 1px solid var(--main-color);
+    border: 1px solid $main-color;
     font-weight: normal;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;

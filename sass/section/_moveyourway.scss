@@ -1,11 +1,11 @@
 .moveyourway {
-    background: var(--sectionitem-color);
+    background: $sectionitem-color;
     padding-top: 68px;
     padding-bottom: 73px;
 }
 
 .moveyourway-title {
-    color: var(--main-color);
+    color: $main-color;
     font-size: 67px;
     line-height: 0.9961940299;
     font-weight: normal;
@@ -14,7 +14,7 @@
 }
 
 .moveyourway-desc {
-    color: var(--main-color);
+    color: $main-color;
     font-size: 20px;
     line-height: 1.24115;
     font-weight: normal;
@@ -29,7 +29,7 @@
 
 .list-item {
     border-radius: 16px;
-    background: var(--text-color);
+    background: $text-color;
     width: 334px;
     padding: 67px 24px 32px 24px;
     transition: box-shadow 600ms;
@@ -44,7 +44,7 @@
 }
 
 .list-desc {
-    color: var(--section-color);
+    color: $section-color;
     font-size: 17px;
     line-height: 1.270588235; 
     font-weight: normal;
@@ -54,13 +54,13 @@
 }
 
 .list-button {
-    color: var(--button-color);
+    color: $button-color;
     font-size: 16px;
     line-height: 1.5; 
     width: 107px;
     height: 26px;
     border-radius: 20px;
-    background: var(--winterbutton-color);
+    background: $winterbutton-color;
     font-weight: normal;
     padding-left: 10px;
     padding-right: 10px;
@@ -74,7 +74,7 @@
 }
 
 .list-title {
-    color: var(--section-color);
+    color: $section-color;
     font-size: 29px;
     line-height: 1.187; 
     font-weight: normal;
@@ -82,7 +82,7 @@
 }
 
 .list-subtitle {
-    color: var(--section-color);
+    color: $section-color;
     font-size: 18px;
     line-height: 1.2; 
     font-weight: normal;
@@ -91,12 +91,12 @@
 }
 
 .list-btn {
-    color: var(--main-color);
+    color: $main-color;
     font-size: 16px;
     line-height: 1; 
     padding: 22px 60px 23px 39px;
     border-radius: 999px;
-    border: 1px solid var(--main-color);
+    border: 1px solid $main-color;
     font-weight: normal;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;

@@ -27,19 +27,19 @@
 }
 
 .catalog-link {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 18px;
     line-height: 1.019055556; 
     font-weight: normal;
 }
 
 .catalog-button {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 18px;
     line-height: 1.019055556; 
     padding: 11px 51px 12px 51px;
     border-radius: 999px;
-    background: var(--button-color);
+    background: $button-color;
     font-weight: normal;
     transition: background-color 0.4s, box-shadow 0.2s 0.3s;
 }
